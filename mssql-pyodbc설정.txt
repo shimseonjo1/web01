@@ -1,0 +1,18 @@
+1. pip install pyodbc
+0. 
+1. sql server 인증,sa 계정 활성화
+ssms에서 
+0. 서버- 속성- 보안 - sql server 인증 체크
+0. 보안 -로그인에서 sa계정 활성화및 비번 설정
+   로그인 속성창-상태 -로그인(사용),데이터베이스 엔진 연결 권한(허용)으로
+
+2. tcp/ip 사용
+sql server configuration manager
+- sql server 네트워크 구성
+- tcp/ip 더블클릭
+-ip주소탭 127.0.0.1 사용,활성화 예로
+-ipall tcp포트 1433으로
+서비스에서 서비스 재시작
+
+
+         
